@@ -1,4 +1,8 @@
 @import "reset.css";
-@import "layout.css";
-@import "mobile.css";
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import 'https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic';
+@import 'https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext';
+@import "desktopHD.css";
+@import "desktop.css";
+@import "tablet.css";
+@import "mobile.css";

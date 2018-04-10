@@ -1,0 +1,106 @@
+@media (min-width: 840px) and (max-width: 1179px) {
+
+  h1 {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .landingWrapper {
+    width: 100vw;
+  }
+
+  .menubar {
+    height: 42px;
+    width: 100vw;
+  }
+
+  .logo {
+    width: 70px;
+    height: 20px;
+  }
+
+  .page {
+    width: 100vw;
+    height: 568px;
+    overflow: hidden;
+  }
+
+  .footer {
+    width: 100vw;
+    height: 568px;
+  }
+
+  .text1, .text3 {
+    margin-top: 134px;
+    width: 342px;
+    margin-right: 52px;
+  }
+
+  .text2 {
+    width: 342px;
+    margin-left: 56px;
+    margin-top: 134px;
+  }
+
+  .mockup1 {
+    margin-top: 165px;
+    margin-left: 22px;
+    width: 376px;
+    height: 403px;
+  }
+
+  .mockup2 {
+    width: 348px;
+    margin-top: 138px;
+    margin-right: 52px;
+    justify-content: center;
+  }
+
+  .img {
+    width: 100px;
+  }
+
+  .image1 {
+    margin-right: 24px;
+    height: 226px;
+  }
+
+  .image2 {
+    margin-right: 24px;
+    height: 282px;
+  }
+
+  .image3 {
+    height: 338px;
+  }
+
+  .mockup3 {
+    margin-top: 206px;
+    left: 480px;
+    width: 540px;
+    height: 286px;
+  }
+
+  .line {
+    width: 22px;
+    height: 3px;
+    margin-top: 44px;
+  }
+
+  .blue {
+    width: 214px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+  }
+
+  .white {
+    font-size: 13px;
+  }
+
+}

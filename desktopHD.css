@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
+  background-color: #FAFAFA;
+}
+
+h1 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 21px;
+  line-height: 36px;
+  margin-top: 28px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.menubar {
+  position: fixed;
+  width: 1440px;
+  z-index: 5;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: block;
+  width: 83px;
+  height: 23px;
+  background-image: url(../images/logo.svg);
+  background-size: cover;
+}
+
+.landingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: 825px;
+}
+
+.left {
+  background-color: #FCFFFE;
+}
+
+.right {
+  background-color: #879696;
+}
+
+.footer {
+  background-color: #879696;
+  color: #FFFFFF;
+  height: 800px;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  position: absolute;
+  margin-top: 61px;
+  background: #50E3C2;
+  width: 30px;
+  height: 4px;
+}
+
+.text, .image {
+  width: calc(100%/2);
+  display: flex;
+}
+
+.text, .right .image {
+  justify-content: flex-end;
+}
+
+.right .text {
+  justify-content: flex-start;
+}
+
+.text1, .text2, .text3 {
+  width: 480px;
+  margin-right: 80px;
+  margin-top: 186px;
+}
+
+.text2 {
+  margin-left: 80px;
+  color: #FFFFFF;
+}
+
+.mockup1 {
+  margin-top: 260px;
+  margin-left: 30px;
+  width: 530px;
+  height: 565px;
+  background-size: cover;
+  background-image: url(../images/about.png);
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+}
+
+.mockup2 {
+  display: flex;
+  width: 486px;
+  margin-top: 193px;
+  margin-right: 74px;
+}
+
+.img {
+  width: 140px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+  background-size: cover;
+}
+
+.image1 {
+  height: 314px;
+  margin-right: 33px;
+  background-image: url(../images/about.png);
+}
+
+.image2 {
+  height: 395px;
+  margin-right: 33px;
+  background-image: url(../images/works.png);
+}
+
+.image3 {
+  height: 474px;
+  background-image: url(../images/work.png);
+}
+
+.mockup3 {
+  position: absolute;
+  margin-top: 345px;
+  left: 640px;
+  width: 760px;
+  height: 403px;
+  background-image: url(../images/screens.png);
+  background-size: cover;
+}
+
+.footer_text {
+  text-align: center;
+}
+
+
+h1.footer_text {
+  width: 872px;
+  margin-top:210px
+}
+
+p.footer_text {
+  width: 763px;
+}
+
+.buttons {
+  margin-top: 60px;
+  margin-bottom: 182px
+}
+
+.button {
+  display: block;
+  margin: 10px
+}
+
+.white {
+  font-family: 'PT Sans', sans-serif;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.blue {
+  font-family: 'PT Sans Caption', sans-serif;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  color: #000014;
+  background-color: #77FFE1;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+}
