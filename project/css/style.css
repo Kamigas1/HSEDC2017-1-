@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #828282;
+  background: #fff; }
+
+#page {
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+a {
+  color: #0bbbe6;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+  a:hover, a:active, a:focus {
+    color: #0bbbe6;
+    outline: none;
+    text-decoration: none; }
+
+p {
+  margin-bottom: 20px; }
+
+h1, h2, h3, h4, h5, h6, figure {
+  color: #000;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0; }
+
+#fh5co-aside {
+  width: 38.2%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  height: 100%;
+  z-index: 555;
+  background-color: #0bbbe6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  @media screen and (max-width: 768px) {
+    #fh5co-aside {
+      width: 100%;
+      position: relative;
+      height: 200px; } }
+  #fh5co-aside #fh5co-logo {
+    padding-top: 20px; }
+    #fh5co-aside #fh5co-logo a {
+      font-weight: 800;
+      letter-spacing: -3px;
+      color: #fff; }
+
+#fh5co-main-content {
+  margin-left: 38.1966%;
+  position: relative;
+  z-index: 999;
+  min-height: 600px;
+  padding-left: 70px;
+  padding-right: 70px; }
+  @media screen and (max-width: 768px) {
+    #fh5co-main-content {
+      margin-left: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 30px;
+      padding-bottom: 15px; } }
+
+.simply-countdown-one {
+  margin-bottom: 30px;
+  float: left;
+  width: 100%; }
+  .simply-countdown-one .simply-section {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    text-align: center; }
+    .simply-countdown-one .simply-section:last-child {
+      margin-right: 0; }
+    .simply-countdown-one .simply-section .simply-amount {
+      font-size: 100px;
+      color: #1c1c1c;
+      display: block;
+      font-weight: 800;
+      line-height: 100px; }
+      @media screen and (max-width: 768px) {
+        .simply-countdown-one .simply-section .simply-amount {
+          font-size: 30px;
+          line-height: 30px; } }
+    .simply-countdown-one .simply-section .simply-word {
+      display: block;
+      text-align: left;
+      font-weight: 700;
+      color: #a7a7a7; }
+
+.fh5co-intro {
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+  position: relative; }
+  .fh5co-intro h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 800; }
+    @media screen and (max-width: 768px) {
+      .fh5co-intro h2 {
+        font-size: 20px; } }
